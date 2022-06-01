@@ -12,7 +12,7 @@ var swiper = new Swiper(".mySwiper", {
 
 window.addEventListener("DOMContentLoaded", () => {
 
-  if (window.innerWidth > 400) {
+  if (window.innerWidth > 450) {
     let linkStyle = document.querySelector('#link');
     let scriptPath = document.querySelector('#path');
     linkStyle.remove();
