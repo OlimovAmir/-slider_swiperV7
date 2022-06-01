@@ -95,7 +95,7 @@ window.addEventListener("DOMContentLoaded", () => {
     document.body.childNodes[1].childNodes[3].childNodes[1].childNodes[13].style = `display: inline;`;
     document.body.childNodes[1].childNodes[3].childNodes[1].childNodes[15].style = `display: inline;`;
 
-    document.querySelector('.footer').style.marginTop = '250px';
+    
 
   } else {
 
