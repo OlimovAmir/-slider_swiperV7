@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link id="style" rel="stylesheet" href="/style.css">  <!-- style.css  -->
+    <link id="style" rel="stylesheet" href="style.css">  <!-- style.css  -->
     
     <link id="link" rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/> <!-- https://unpkg.com/swiper/swiper-bundle.min.css  -->
     
@@ -13,26 +13,28 @@
 
 <body>
   
-  <div class="slides_1" >
-    <header class="header">
-        <p>РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</padding>
-    </header>
-    <div class="swiper mySwiper">
-        <div class="swiper-wrapper" >
-          <div class="swiper-slide"><img src="img/lenogo.svg"></div>
-          <div class="swiper-slide"><img src="img/samsung.svg"></div>
-          <div class="swiper-slide"><img src="img/apple.svg"></div>
-          <div class="swiper-slide"><img src="img/ViewSonic.svg"></div>
-          <div class="swiper-slide"><img src="img/bosch.svg"></div>
-          <div class="swiper-slide"><img src="img/hp.svg"></div>
-          <div class="swiper-slide"><img src="img/acer.svg"></div>
-          <div class="swiper-slide"><img src="img/sony.svg"></div>
-          <div class="swiper-slide"><img src="img/lenogo.svg"></div>
-          <div class="swiper-slide"><img src="img/samsung.svg"></div>
-          <div class="swiper-slide"><img src="img/apple.svg"></div>
-        </div>
-        <div class="swiper-pagination"></div>
-      </div>
+  <div class="slides_1" style="height: 30px;" >
+        <header class="header" >
+          <p>РЕМОНТ ТЕХНИКИ РАЗЛИЧНЫХ БРЕНДОВ</p>
+        </header>
+        <div class="swiper mySwiper" style="margin-top: 20px;">
+            <div class="swiper-wrapper" >
+                <div id="slide" class="swiper-slide"><img src="img/lenogo.svg"></div>
+                <div class="swiper-slide"><img src="img/samsung.svg"></div>
+                <div class="swiper-slide"><img src="img/apple.svg"></div>
+                <div  class="swiper-slide ViewSonic"  ><img src="img/ViewSonic.svg"></div>
+                <div class="swiper-slide"><img src="img/bosch.svg"></div>
+                <div class="swiper-slide"><img src="img/hp.svg"></div>
+                <div class="swiper-slide"><img src="img/acer.svg"></div>
+                <div class="swiper-slide sony"><img src="img/sony.svg"></div>
+          
+                <div id="lenogo" class="slides  " style="display: inline;"><img src="img/lenogo.svg"></div>
+                <div class="slides samsung" style="display: inline;"><img src="img/samsung.svg"></div>
+                <div class="slides apple" style="display: inline;"><img src="img/apple.svg"></div>
+                <div class="slides apple2"><img src="img/apple.svg" style="opacity: 0"></div> 
+            </div>
+            <div class="swiper-pagination"></div>
+          </div>
   </div>
 
       

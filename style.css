@@ -57,6 +57,7 @@
     
     
     .hidden {
-        display: inline;
-        position: relative;
+        display: none;
+        
+       height: auto; 
     }
