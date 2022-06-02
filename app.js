@@ -95,8 +95,8 @@ window.addEventListener("DOMContentLoaded", () => {
     document.body.childNodes[1].childNodes[3].childNodes[1].childNodes[13].style = `display: inline;`;
     document.body.childNodes[1].childNodes[3].childNodes[1].childNodes[15].style = `display: inline;`;
 
-    
-    document.body.childNodes[3].setAttribute('style', 'inline; margin-top: 300px;');
+
+    document.body.childNodes[3].setAttribute('style', 'inline;');
   } else {
     document.body.childNodes[3].setAttribute('style', 'opacity: 0');
 
@@ -121,6 +121,7 @@ openPopupButton.addEventListener('click', () => {
     popup3.classList.add('hidden');
     document.querySelector('.button').value = 'Показать все';
     document.querySelector('#arrows').style.transform = 'rotate(360deg)';
+    document.querySelector('.footer').style.top = '350px'
 
   } else {
     document.body.childNodes[1].childNodes[3].childNodes[1].childNodes[17].setAttribute('style', 'inline');
@@ -133,7 +134,29 @@ openPopupButton.addEventListener('click', () => {
     popup3.classList.remove('hidden');
     document.querySelector('.button').value = 'Скрыть';
     document.querySelector('#arrows').style.transform = 'rotate(180deg)';
+    document.querySelector('.footer').style.top = '450px'
 
   }
 
 });
+
+
+window.addEventListener("DOMContentLoaded", () => {
+
+  if (window.innerWidth < 780) {
+    document.querySelector('.footer').style.top = '800px'
+    let openPopupButton = document.querySelector('.footer');
+openPopupButton.addEventListener('click', () => {
+  if (!popup.classList.contains('hidden')) {
+    document.querySelector('.footer').style.top = '750px'
+  }else{
+    document.querySelector('.footer').style.top = '550px'
+  }
+})
+  } else {
+
+  }
+
+
+
+})
