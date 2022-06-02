@@ -59,5 +59,45 @@
     .hidden {
         display: none;
         
-       
+       margin-top: 300px;
     }
+
+
+
+    @font-face {
+      font-family: 'TT Lakes';
+      src: url('/fonts/TTLakes-Bold.woff');
+           
+  }
+  @font-face {
+      font-family: 'TT Lakes2';
+      src: url('fonts/TTLakes-ExtraBold.woff');
+  }
+  
+  @font-face {
+      font-family: 'TT Lakes3';
+      src: url('fonts/TTLakes-Thin.woff');
+  }
+  
+  body{
+      width: 100%;
+      font-family: 'TT Lakes3';
+      
+      margin: 0;
+      padding: 0;
+      background: #F2F2F2;
+  }
+
+  .header{
+    width: 100%;
+}
+
+.header p {
+    position: relative;
+    padding: 16px 16px;
+    
+    font-size: 16px;
+    background: linear-gradient(90deg, #F8F8F8 1.39%, #FFFFFF 100%);
+    color: #726e6e;
+    font-weight: 700;
+}

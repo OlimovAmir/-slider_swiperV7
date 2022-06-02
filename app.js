@@ -96,9 +96,9 @@ window.addEventListener("DOMContentLoaded", () => {
     document.body.childNodes[1].childNodes[3].childNodes[1].childNodes[15].style = `display: inline;`;
 
     
-
+    document.body.childNodes[3].setAttribute('style', 'inline; margin-top: 300px;');
   } else {
-
+    document.body.childNodes[3].setAttribute('style', 'block');
 
   }
 })
